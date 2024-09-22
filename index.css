@@ -1,0 +1,48 @@
+* {
+    font-family: "Agrandir", sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/landing.png");
+    background-size: cover;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 60px;
+    color: #f499a3;
+}
+#buttons {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.button {
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 50px;
+    color: #203162;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+.button-login {
+    background-color: #f59dc0;
+}
+.button-signup {
+    background-color: #19989c;
+}
+
