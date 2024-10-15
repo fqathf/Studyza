@@ -13,8 +13,8 @@
     <div id="container">
         <h1>Studyza</h1>
         <div id="buttons">
-            <a class="button button-login" href="">Login</a>
-            <a class="button button-signup" href="">Sign Up</a>
+            <a class="button button-login" href="login.php">Login</a>
+            <a class="button button-signup" href="signup.php">Sign Up</a>
         </div>
     </div>
 </body>
