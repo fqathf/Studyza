@@ -1,9 +1,12 @@
+* {
+    font-family: sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: aqua;
+    background-color: #abcbd0;
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
@@ -30,7 +33,7 @@ header {
     padding-right: 20px;
 }
 #profile:hover, #home:hover {
-    background-color: pink;
+    background-color: #a85f7b;
 }
 nav {
     align-items: center;
@@ -51,7 +54,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: pink;
+    background-color: #a85f7b;
 }
 
 #schedule_main {

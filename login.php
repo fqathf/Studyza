@@ -2,7 +2,7 @@
     include "connection.php";
     session_start();
 
-    if(isset($_SESSION["id"])){
+    if(isset($_SESSION["user_id"])){ //ini juga
         header("Location: home.php");
         exit();
     }
@@ -15,7 +15,7 @@
         $result = mysqli_query($db, $checkAccount);
         if(mysqli_num_rows($result) > 0){
             $data = mysqli_fetch_assoc($result);
-            $_SESSION['id'] = $data['id'];
+            $_SESSION['user_id'] = $data['id']; // bagian ini ada yang di ubah
             $_SESSION['isLogin'] = true;
 
             header("Location: home.php");

@@ -2,7 +2,7 @@
     include "connection.php";
     session_start();
 
-    if(isset($_SESSION["id"])){
+    if(isset($_SESSION["user_id"])){ //ini juga
         header("Location: home.php");
         exit();
     }

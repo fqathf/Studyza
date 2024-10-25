@@ -15,19 +15,8 @@ if(!isset($_SESSION["isLogin"])){
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="" id="profile">
-            <img width="50px" src="assets/profile.svg" alt="">
-        </a>
-        <nav>
-            <a href="">Schedule</a>
-            <a href="">Task</a>
-            <a href="">Exam</a>
-            <a href="">Self-Study</a>
-        </nav>
-        <a href="" id="home">
-            <img width="50px" src="assets/home.svg" alt="">
-        </a>
-    </header>
+    <?php
+        include_once "navbar.php";
+    ?>
 </body>
 </html>
