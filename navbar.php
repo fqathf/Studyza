@@ -5,7 +5,7 @@
         <nav>
             <a href="view_schedule.php">Schedule</a>
             <a href="view_tasks.php">Task</a>
-            <a href="">Exam</a>
+            <a href="view_exams.php">Exam</a>
             <a href="">Self-Study</a>
         </nav>
         <a href="home.php" id="home">
