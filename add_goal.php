@@ -48,11 +48,11 @@ $db->close();
     <?php include_once "navbar.php" ?>
     <div class="container">
         <h2>Tambah Tugas Baru</h2>
-        <form action="add_task.php" method="POST">
+        <form action="add_goal.php" method="POST">
             <label for="goal">Goal:</label>
             <input type="text" id="goal" name="goal" required> <br>
     
-            <input type="submit" value="Tambah Goal">
+            <input type="submit" value="Simpan Goal">
         </form>
     </div>
 </body>
