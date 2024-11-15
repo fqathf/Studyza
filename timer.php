@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["isLogin"])){
+    header("Location: login.php");
+    exit();
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,10 +33,28 @@
             border-radius: 10px;
             background-color: #f9d1df;
         }
+        #sidebar {
+            position: fixed;
+            display: flex;
+            width: 20vw;
+            height: 100vh;
+            border: 1px black solid;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            background-color: #f9d1df;
+        }
+        .sidebar-inner {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <?php include_once "navbar.php" ?>
+    <?php include_once "sidebar.php" ?>
 
     <div id="main-task">
         <h1>Timer</h1>

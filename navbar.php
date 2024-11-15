@@ -6,7 +6,7 @@
             <a href="view_schedule.php">Schedule</a>
             <a href="view_tasks.php">Task</a>
             <a href="view_exams.php">Exam</a>
-            <a href="">Self-Study</a>
+            <a href="view_goals.php">Self-Study</a>
         </nav>
         <a href="home.php" id="home">
             <img width="50px" src="assets/home.svg" alt="">
